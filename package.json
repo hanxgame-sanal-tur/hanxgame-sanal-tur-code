@@ -1,0 +1,39 @@
+{
+  "name": "hanxgame",
+  "version": "0.1.0",
+  "description": "hanxgame 360° sanal tur",
+  "author": "hanxgame.",
+  "license": "ISC",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "testem ci",
+    "livetest": "testem",
+    "dev": "scripts/dev",
+    "release": "scripts/release",
+    "deploy": "scripts/deploy",
+    "prepublishOnly": "scripts/prepublish"
+  },
+    "homepage": "https://www.hanxgame.com",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/hanxgame-sanal-tur/hanxgame-sanal-tur-code.git"
+  },
+  "dependencies": {
+    "bowser": "2.7.0",
+    "gl-matrix": "3.1.0",
+    "hammerjs": "2.0.4",
+    "minimal-event-emitter": "1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.0",
+    "chai": "^4.2.0",
+    "flex-sdk": "^4.6.0-0",
+    "jsdoc": "^3.6.3",
+    "lr-http-server": "^0.1.5",
+    "mocha": "^6.2.2",
+    "sinon": "^7.5.0",
+    "testem": "^2.16.0",
+    "uglify-js": "^2.8.29",
+    "watchify": "^3.11.1"
+  }
+}
